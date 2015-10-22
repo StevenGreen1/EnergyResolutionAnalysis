@@ -90,6 +90,10 @@ class GroupedContainer
         /*
          * Get Parameter Functions
          */
+        TGraph* GetLinearityPlot() { return m_pLinearityPlot; }
+        TGraph* GetResolutionPlot() { return m_pResolutionPlot; }
+        TF1* GetResolutionFit() { return m_pResolutionFit; }
+        TF1* GetLinearityFit() { return m_pLinearityFit; }
 };
 
 #endif
